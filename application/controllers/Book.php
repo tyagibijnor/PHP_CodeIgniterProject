@@ -13,7 +13,7 @@ class Book extends CI_Controller {
     $data = array();
     }
     public function addbook(){
-    $data['title'] = 'Add New Book';
+    $data['title'] = 'Add Product';
     $data['header'] 	= $this->load->view('inc/header', $data , TRUE); // Load Header Part
     $data['sidebar'] 	= $this->load->view('inc/sidebar', '' , TRUE);// Load Sidebar Part
     $data['departmentdata']    = $this->department_model->getDepartmentData();
