@@ -1,4 +1,4 @@
-<script src="<?php echo base_url();?>lib/jquery.dataTables.JS" type="text/javascript"></script>
+<script src="<?php echo base_url();?>lib/jquery.dataTables.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href= "<?php echo base_url();?>lib/jquery.dataTables.css">
 
 <h2>Book List</h2>
